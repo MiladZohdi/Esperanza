@@ -1,0 +1,254 @@
+@media (max-width: 91.45em) {
+  .hero-container {
+    max-width: 64rem;
+  }
+}
+
+@media (max-width: 88.75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .section-hero {
+    grid-template-columns: 9fr 10fr;
+  }
+  .shop-name {
+    font-size: 6.4rem;
+  }
+  .hero-img {
+    content: url(/imgs/hero/foodrespons.webp);
+  }
+  .hero-container {
+    max-width: 80rem;
+  }
+}
+
+@media (max-width: 73.75em) {
+  .section-hero {
+    grid-template-columns: 1fr 1fr;
+  }
+  .main-nav-link {
+    max-width: 9rem;
+  }
+  .hero-img {
+    height: 100%;
+    width: 120%;
+  }
+  .svg-main {
+    transform: translate(-25%, -5%);
+  }
+  .main-nav-list {
+    gap: 0;
+  }
+  .shop-desc {
+    font-size: 2.4rem;
+  }
+  .hero-container {
+    max-width: 56rem;
+  }
+  .shop-name {
+    font-size: 5.2rem;
+  }
+  .best-food-card {
+    max-width: 90%;
+  }
+  .svg1 {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+  }
+  .svg2 {
+    position: absolute;
+    top: 55%;
+    left: 90%;
+  }
+  .section-header {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 65.62em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 58.75em) {
+  .best-food-card-containrer {
+    gap: 9.6rem;
+  }
+  .best-food-card {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+  .best-food-card-text {
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+    text-align: center;
+  }
+  .zigzag {
+    grid-row-start: 1;
+  }
+  .best-food-img {
+    height: 100%;
+    max-width: 40%;
+  }
+  .best-food-card-containrer {
+    transform: translateY(-15rem);
+  }
+  .best-food-card-desc {
+    max-width: 70rem;
+  }
+}
+
+@media (max-width: 51.25em) {
+  .btn-mobile-nav {
+    display: block;
+    z-index: 999999;
+  }
+
+  .main-nav-list {
+    background-color: #44221b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    transform: translateX(100%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.6rem;
+    transition: all 0.3s;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav-list {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .mobile-nav-icon[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .mobile-nav-icon[name="reorder-three-outline"] {
+    display: none;
+  }
+  .main-nav-link {
+    min-height: 4rem;
+  }
+  .svg1 {
+    display: none;
+  }
+  .svg2 {
+    display: none;
+  }
+  .svg3 {
+    display: none;
+  }
+}
+
+@media (max-width: 43.75em) {
+  .section-hero {
+    display: block;
+    background-image: linear-gradient(
+        rgba(68, 34, 27, 0.723),
+        rgba(68, 34, 27, 0.723)
+      ),
+      url(/imgs/hero/foodrespons.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-img {
+    display: none;
+  }
+  .svg-main {
+    display: none;
+  }
+  .hero-main {
+    position: relative;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 50rem;
+    padding: 0 2rem;
+  }
+  .nav-open .hero-container {
+    display: none;
+  }
+  .shop-name {
+    font-size: 6.2rem;
+  }
+  .shop-desc {
+    font-size: 3rem;
+  }
+  .best-seller-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+  }
+  .footer-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 4.8rem;
+  }
+  .footer-left {
+    grid-column: 1/4;
+  }
+  .about-img-container {
+    display: none;
+  }
+  .about-container {
+    background-image: linear-gradient(
+        rgba(23, 11, 9, 0.8),
+        rgba(23, 11, 9, 0.8)
+      ),
+      url(/imgs/about/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    height: 70rem;
+  }
+  .about-text-container {
+    color: #f9e3de;
+    padding: auto;
+    max-width: 100%;
+    text-align: center;
+  }
+  .about-header {
+    font-size: 3.6rem;
+  }
+  .about-desc {
+    font-size: 2.8rem;
+  }
+  .footer {
+    margin-top: 0;
+  }
+  .best-food-img {
+    max-width: 60%;
+  }
+  .section-intro {
+    text-align: center;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .footer {
+    padding: 6.4rem 1.6rem 1.6rem 1.6rem;
+    width: 100%;
+  }
+}
