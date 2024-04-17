@@ -309,6 +309,7 @@ body {
   max-width: 80%;
   height: auto;
   justify-self: center;
+  display: flex;
 }
 
 .best-food-card-text {

@@ -90,8 +90,8 @@
     grid-row-start: 1;
   }
   .best-food-img {
-    height: 100%;
-    max-width: 40%;
+    height: auto;
+    max-width: 50%;
   }
   .best-food-card-containrer {
     transform: translateY(-15rem);
@@ -109,7 +109,7 @@
 
   .main-nav-list {
     background-color: #44221b;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -216,7 +216,7 @@
         rgba(23, 11, 9, 0.8),
         rgba(23, 11, 9, 0.8)
       ),
-      url(/imgs/about/background.png);
+      url(/imgs/about/background.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
